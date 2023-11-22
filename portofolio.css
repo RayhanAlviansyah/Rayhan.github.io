@@ -9,10 +9,13 @@ li {
 
 
 body {
-    display: flex;
     background-image:url(waneella-pixel-art.gif);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+main {
+    display: flex;
 }
 
 .profile {
@@ -245,4 +248,15 @@ body {
 
 #con:checked ~ .con {
     right:130px;
+}
+
+.footer {
+    background-color: aqua;
+height:70px;
+width:100%;
+text-align: center;
+} 
+
+.footer p {
+    padding-top:20px;
 }
