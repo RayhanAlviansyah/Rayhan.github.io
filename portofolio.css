@@ -1,0 +1,248 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+body {
+    display: flex;
+    background-image:url(waneella-pixel-art.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile {
+    display: flex;
+    background-color:#FFFCC0;
+    height:870px;
+    width:400px;
+    border:2px solid black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile img {
+    
+    height:200px;
+    width:200px;
+    border-top-right-radius:30px;
+    border-top-left-radius:30px;
+
+}
+
+
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-right-radius:30px;
+    border-top-left-radius:30px;
+    background-color: #FFFEE0;
+    height:300px;
+    width:300px;
+    justify-content: center;
+    text-align: center;
+    padding-top:20px;
+}
+
+.text {
+    align-items: center;
+    height:200px;
+    width:300px;
+    text-align: center;
+
+}
+
+.edu h1 {
+    text-align: center;
+}
+
+.edu h3 {
+    text-align: center;
+}
+
+.slide {
+    display: flex;
+    background-color:#FFFCC0;
+    height:80px;
+    width:50%;
+    border-bottom-right-radius:20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border:2px solid black;
+}
+
+.navli1 {
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.le:hover {
+    cursor: pointer;
+}
+
+#exp {
+    display: none;
+}
+
+#pro {
+    display: none;
+}
+
+#skill {
+    display: none;
+}
+
+#con {
+    display: none;
+}
+
+.exp {
+    position: fixed;
+    top:150px;
+    bottom:0;
+    right:-800px;
+    height:600px;
+    width:800px;
+    background-color: white;
+    transition: 1s;
+    border:2px solid;
+    border-radius:20px;
+}
+
+.dalemexp {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top:20px;
+}
+
+.h3 {
+    padding-top:20px;
+}
+
+.h3 img {
+    padding-top: 20px;
+    height:300px;
+}
+
+#exp:checked ~ .exp {
+    right:130px;
+}
+
+.pro {
+    position: fixed;
+    top:150px;
+    bottom:0;
+    right:-800px;
+    height:600px;
+    width:800px;
+    background-color: white;
+    transition: 1s;
+    border:2px solid;
+    border-radius:20px;
+}
+
+.dalempro {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top:20px;
+}
+
+.dalempro h3 {
+    padding-top:20px;
+}
+
+.pro img {
+    padding-left:150px;
+    padding-top: 20px;
+    height:300px;
+    width:500px;
+}
+
+#pro:checked ~ .pro {
+    right:130px;
+}
+
+.skill {
+    position: fixed;
+    top:200px;
+    bottom:0;
+    right:-400px;
+    height:300px;
+    width:400px;
+    background-color: white;
+    transition: 1s;
+    border:2px solid;
+    border-radius:20px;
+}
+
+.dalemskill {
+    text-align: center;
+    padding-top:20px;
+}
+
+.dalemskill li {
+    padding-top:20px;
+}
+
+#skill:checked ~ .skill {
+    right:450px;
+}
+
+.con {
+    position: fixed;
+    top:200px;
+    bottom:0;
+    right:-800px;
+    height:400px;
+    width:800px;
+    background-color: white;
+    transition: 1s;
+    border:2px solid;
+    border-radius:20px;
+}
+
+.con h1 {
+    text-align:center;
+    padding-top:20px;
+}
+
+.dalemcon {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.divcon {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    padding-top:20px;
+    height:100px;
+    width:300px;
+}
+
+.divcon img {
+    height:100px;
+}
+
+.divcon p {
+    padding-left:20px;
+    padding-top:45px;
+}
+
+#con:checked ~ .con {
+    right:130px;
+}
